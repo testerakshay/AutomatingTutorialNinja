@@ -10,10 +10,17 @@ public class VerifyRegister extends BaseClass{
 	@Test
 	public void verifyingRegisterFeature() {
 		Register rg = new Register(driver);
-		rg.ClickRegister();
+		
 		
 		
 		
 	}
+	
+	@Test(dataProvider = "registerDataForm")
+	public void dataprovides(String a, String b) {
+		
+		
+	}
+		
 
 }
